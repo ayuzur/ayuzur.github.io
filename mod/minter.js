@@ -108,9 +108,9 @@ export const reset_char_objs = (array, delta) => {
 export const update_char_objs = (canvas, array, delta) => {	
 	for (var i = 0; i < array.length; i++) {
 		var chob = array[i];
-
-		if (chob.vx == 0 && chob.y == 0) {
-			reset_char_obj(chob);
+		//console.log(chob);
+		if (chob.vx == 0 && chob.vy == 0) {
+			reset_char_obj(chob, delta);
 			continue;
 		}
 
