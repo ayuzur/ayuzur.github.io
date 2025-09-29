@@ -25,7 +25,7 @@ import {
 
 const clear_screen = () => ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-var str = "I am ayuzur";
+var str = "I make stuff";
 var x = canvas.width / 2 - letters_count_to_pixels(str.length / 2);
 var y = canvas.height / 2 - letters_count_to_pixels(2);
 var chobs = [];
